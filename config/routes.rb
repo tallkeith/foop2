@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
+
   devise_for :users
-  get 'welcome/home'
-=======
+ 
+
   root 'welcome#home'
->>>>>>> be9336e04e0fa4ebb1b742ca4a9377aea2ffc3fd
+
 
   get 'welcome/about'
 
