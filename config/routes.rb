@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'welcome/home'
+
+  get 'welcome/about'
+
   resources :timelines
 
   # The priority is based upon order of creation: first created -> highest priority.
