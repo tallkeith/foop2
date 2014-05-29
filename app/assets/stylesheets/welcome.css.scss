@@ -3,7 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body
 {
-  background-size: 90%;
+  background: url("Blogarhytm_homepage.JPG") no-repeat center center fixed;
+  background-size: 100%;
   background-repeat:no-repeat;
   background-attachment:fixed;
   background-position:center; 
@@ -49,4 +50,9 @@ div ul li
 	background-color: #69D2E7;
 	border-radius: 5px;
 }   
+.active
+{
+	background-color: #69D2E7;
+	border-radius: 5px;
+}
   
