@@ -3,5 +3,50 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body
 {
-	background-size: 100% 
+  background-size: 90%;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center; 
+  border-radius: 15px;
 }
+
+.navbar-brand
+{
+	background-color: #69D2E7;
+	border-radius: 5px;
+}
+
+div ul li
+{
+	background-color: #69D2E7;
+	border-radius: 5px;
+}
+.dropdown
+{
+	background-color: #69D2E7;
+	border-radius: 5px;
+}
+
+.button
+{
+	background-color: #69D2E7;
+	border-radius: 5px;
+}
+
+.navbar-toggle
+{
+	background-color: #69D2E7;
+	border-radius: 5px;
+}
+.collapse
+{
+	background-color: #69D2E7;
+	border-radius: 5px;
+}
+
+.navbar-inverse-collapse
+ {
+	background-color: #69D2E7;
+	border-radius: 5px;
+}   
+  

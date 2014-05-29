@@ -1,10 +1,17 @@
 Rails.application.routes.draw do
+
   
   root 'welcome#home'
 
   get 'welcome/home'
 
+  devise_for :users
+
+
+
   get 'welcome/about'
+
+  post 'timelines/new'
 
   resources :timelines
 
